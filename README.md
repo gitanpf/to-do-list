@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+📝 To-Do List | React + Redux Toolkit
+Este é um gerenciador de tarefas profissional desenvolvido para praticar o gerenciamento de estado complexo com Redux Toolkit e a tipagem estática com TypeScript. O projeto permite organizar o cotidiano com filtros de prioridade e status de conclusão.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Funcionalidades
+Gerenciamento de Estado: Utiliza Redux Toolkit para um fluxo de dados previsível.
 
-## Available Scripts
+Sistema de Prioridades: Cada tarefa é classificada com tags coloridas:
+🔴 Urgente
+🟡 Importante
+⚪ Normal
 
-In the project directory, you can run:
+Status Dinâmico: Ao marcar o checkbox, a tarefa recebe a tag Concluída.
+🟢 Concluída
 
-### `npm start`
+Enquanto não marcada, a tarefa exibe a tag Pendente.
+⚪ Pendente
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Filtros Inteligentes: Visualize suas tarefas com base na prioridade ou no status.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+🛠️ Tecnologias Utilizadas
+• React (Hooks e Componentes Funcionais)
+• Redux Toolkit (Slices e Store)
+• TypeScript (Interfaces e Tipagem de Estado)
+• Styled Components (ou SASS/CSS, dependendo do seu projeto)
+• Prettier & ESLint (Padronização de código)
 
-### `npm test`
+📦 Como rodar o projeto
+Clone o repositório:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+PowerShell
+git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+Instale as dependências:
 
-### `npm run build`
+PowerShell
+npm install
+Inicie o servidor de desenvolvimento:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+PowerShell
+npm start
+📂 Estrutura de Pastas (Redux)
+A lógica do Redux está organizada para ser escalável:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Plaintext
+src/
+ ├── store/             # Configuração da Store
+ ├── containers/        # Componentes que se conectam ao Redux
+ ├── components/        # Componentes visuais (Dumb Components)
+ └── models/            # Tipagens e Interfaces TypeScript
+✨ Preview das Tags
+[!TIP]
+O sistema de cores ajuda na identificação visual rápida das tarefas que exigem atenção imediata!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contato
+Desenvolvido por Anelise - Estudante de Engenharia Front-End.
