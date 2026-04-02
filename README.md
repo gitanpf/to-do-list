@@ -33,19 +33,20 @@ Instale as dependências:
 
 PowerShell
 npm install
-Inicie o servidor de desenvolvimento:
 
+Inicie o servidor de desenvolvimento:
 PowerShell
 npm start
+
 📂 Estrutura de Pastas (Redux)
 A lógica do Redux está organizada para ser escalável:
-
 Plaintext
 src/
  ├── store/             # Configuração da Store
  ├── containers/        # Componentes que se conectam ao Redux
  ├── components/        # Componentes visuais (Dumb Components)
  └── models/            # Tipagens e Interfaces TypeScript
+ 
 ✨ Preview das Tags
 [!TIP]
 O sistema de cores ajuda na identificação visual rápida das tarefas que exigem atenção imediata!
