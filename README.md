@@ -28,7 +28,7 @@ Filtros Inteligentes: Visualize suas tarefas com base na prioridade ou no status
 Clone o repositório:
 
 PowerShell
-git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+git clone https://github.com/gitanpf/to-do-list
 Instale as dependências:
 
 PowerShell
