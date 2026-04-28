@@ -2,7 +2,6 @@
   "name": "to-do-list",
   "homepage": "https://gitanpf.github.io/to-do-list",
   "version": "0.1.1",
-  "homepage": "https://gitanpf.github.io/to-do-list",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
