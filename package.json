@@ -2,6 +2,7 @@
   "name": "to-do-list",
   "homepage": "https://gitanpf.github.io/to-do-list",
   "version": "0.1.1",
+  "homepage": "https://gitanpf.github.io/to-do-list",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
@@ -25,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
