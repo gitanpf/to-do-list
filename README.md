@@ -4,26 +4,26 @@ Este é um gerenciador de tarefas profissional desenvolvido para praticar o gere
 
 ## 🚀 Funcionalidades
 
-*   **Gerenciamento de Estado:** Utiliza Redux Toolkit para um fluxo de dados previsível[cite: 1].
-*   **Sistema de Prioridades:** Cada tarefa é classificada com tags coloridas: 🔴 Urgente, 🟡 Importante e ⚪ Normal
-*   **Status Dinâmico:** As tarefas alternam entre 🟢 **Concluída** (ao marcar o checkbox) e ⚪ **Pendente**
+*   **Gerenciamento de Estado:** Utiliza Redux Toolkit para um fluxo de dados previsível.
+*   **Sistema de Prioridades:** Cada tarefa é classificada com tags coloridas: 🔴 Urgente, 🟡 Importante e ⚪ Normal.
+*   **Status Dinâmico:** As tarefas alternam entre 🟢 **Concluída** (ao marcar o checkbox) e ⚪ **Pendente**.
 *   **Filtros Inteligentes:** Visualização personalizada com base na prioridade ou no status da tarefa.
 
 ## 🛠️ Tecnologias Utilizadas
 
 *   **React:** Hooks e Componentes Funcionais[cite: 1].
-*   **Redux Toolkit:** Slices e Store para controle de fluxos complexos[cite: 1].
-*   **TypeScript:** Interfaces e Tipagem de Estado para maior segurança no código[cite: 1].
-*   **Styled Components:** Estilização avançada e componentes dinâmicos[cite: 1].
-*   **Mobile-First:** Metodologia de desenvolvimento focada em responsividade[cite: 1].
+*   **Redux Toolkit:** Slices e Store para controle de fluxos complexos.
+*   **TypeScript:** Interfaces e Tipagem de Estado para maior segurança no código.
+*   **Styled Components:** Estilização avançada e componentes dinâmicos.
+*   **Mobile-First:** Metodologia de desenvolvimento focada em responsividade.
 
 ## 📂 Estrutura de Pastas (Redux)
 
-A lógica está organizada para ser escalável e de fácil manutenção[cite: 1]:
-*   `src/store/`: Configuração da Store e Slices[cite: 1].
-*   `src/containers/`: Componentes conectados ao Redux[cite: 1].
-*   `src/components/`: Componentes visuais (Dumb Components)[cite: 1].
-*   `src/models/`: Tipagens e Interfaces TypeScript[cite: 1].
+A lógica está organizada para ser escalável e de fácil manutenção:
+*   `src/store/`: Configuração da Store e Slices.
+*   `src/containers/`: Componentes conectados ao Redux.
+*   `src/components/`: Componentes visuais (Dumb Components).
+*   `src/models/`: Tipagens e Interfaces TypeScript.
 
 ## 🚀 Como Rodar o Projeto
 
