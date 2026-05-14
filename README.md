@@ -25,4 +25,4 @@ A lógica está organizada para ser escalável e de fácil manutenção:
 *   `src/components/`: Componentes visuais (Dumb Components).
 *   `src/models/`: Tipagens e Interfaces TypeScript.
 
-###Link: https://gitanpf.github.io/to-do-list/
+**Link**: https://gitanpf.github.io/to-do-list/
