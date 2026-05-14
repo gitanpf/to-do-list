@@ -1,66 +1,32 @@
-📝 To-Do List | React + Redux Toolkit
-Este é um gerenciador de tarefas profissional desenvolvido para praticar o gerenciamento de estado complexo com Redux Toolkit e a tipagem estática com TypeScript. O projeto permite organizar o cotidiano com filtros de prioridade e status de conclusão.
+# 📝 To-Do List | React + Redux Toolkit
 
+Este é um gerenciador de tarefas profissional desenvolvido para praticar o gerenciamento de estado complexo com **Redux Toolkit** e a tipagem estática com **TypeScript**. O projeto permite organizar o cotidiano com filtros de prioridade e status de conclusão.
 
-🚀 Funcionalidades
-Gerenciamento de Estado: Utiliza Redux Toolkit para um fluxo de dados previsível.
+## 🚀 Funcionalidades
 
+*   **Gerenciamento de Estado:** Utiliza Redux Toolkit para um fluxo de dados previsível[cite: 1].
+*   **Sistema de Prioridades:** Cada tarefa é classificada com tags coloridas: 🔴 Urgente, 🟡 Importante e ⚪ Normal
+*   **Status Dinâmico:** As tarefas alternam entre 🟢 **Concluída** (ao marcar o checkbox) e ⚪ **Pendente**
+*   **Filtros Inteligentes:** Visualização personalizada com base na prioridade ou no status da tarefa.
 
-Sistema de Prioridades: Cada tarefa é classificada com tags coloridas:
-🔴 Urgente
-🟡 Importante
-⚪ Normal
+## 🛠️ Tecnologias Utilizadas
 
+*   **React:** Hooks e Componentes Funcionais[cite: 1].
+*   **Redux Toolkit:** Slices e Store para controle de fluxos complexos[cite: 1].
+*   **TypeScript:** Interfaces e Tipagem de Estado para maior segurança no código[cite: 1].
+*   **Styled Components:** Estilização avançada e componentes dinâmicos[cite: 1].
+*   **Mobile-First:** Metodologia de desenvolvimento focada em responsividade[cite: 1].
 
-Status Dinâmico: Ao marcar o checkbox, a tarefa recebe a tag Concluída.
-🟢 Concluída
+## 📂 Estrutura de Pastas (Redux)
 
+A lógica está organizada para ser escalável e de fácil manutenção[cite: 1]:
+*   `src/store/`: Configuração da Store e Slices[cite: 1].
+*   `src/containers/`: Componentes conectados ao Redux[cite: 1].
+*   `src/components/`: Componentes visuais (Dumb Components)[cite: 1].
+*   `src/models/`: Tipagens e Interfaces TypeScript[cite: 1].
 
-Enquanto não marcada, a tarefa exibe a tag Pendente.
-⚪ Pendente
+## 🚀 Como Rodar o Projeto
 
-
-Filtros Inteligentes: Visualize suas tarefas com base na prioridade ou no status.
-
-
-🛠️ Tecnologias Utilizadas
-• React (Hooks e Componentes Funcionais)
-• Redux Toolkit (Slices e Store)
-• TypeScript (Interfaces e Tipagem de Estado)
-• Styled Components (ou SASS/CSS, dependendo do seu projeto)
-• Prettier & ESLint (Padronização de código)
-
-
-📦 Como rodar o projeto
-Clone o repositório:
-
-PowerShell
-git clone https://github.com/gitanpf/to-do-list
-
-
-Instale as dependências:
-PowerShell
-npm install
-
-
-Inicie o servidor de desenvolvimento:
-PowerShell
-npm start
-
-
-📂 Estrutura de Pastas (Redux)
-A lógica do Redux está organizada para ser escalável:
-src/
- ├── store/             # Configuração da Store
- ├── containers/        # Componentes que se conectam ao Redux
- ├── components/        # Componentes visuais (Dumb Components)
- └── models/            # Tipagens e Interfaces TypeScript
-
- 
-✨ Preview das Tags
-[!TIP]
-O sistema de cores ajuda na identificação visual rápida das tarefas que exigem atenção imediata!
-
-
-Contato
-Desenvolvido por Anelise - Estudante de Engenharia Front-End.
+1. **Clone o repositório:**
+   ```powershell
+   git clone [https://github.com/gitanpf/to-do-list](https://github.com/gitanpf/to-do-list)
