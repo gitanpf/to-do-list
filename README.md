@@ -36,8 +36,9 @@ Clone o repositório:
 
 PowerShell
 git clone https://github.com/gitanpf/to-do-list
-Instale as dependências:
 
+
+Instale as dependências:
 PowerShell
 npm install
 
